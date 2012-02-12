@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.tomask.plugin</groupId>
+  <artifactId>legkoxml-maven-plugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20120212.162336</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20120212162336</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20120212.162336-1</value>
+        <updated>20120212162336</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20120212.162336-1</value>
+        <updated>20120212162336</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2010-2012 by tomask - design & development, Lichtenstein, Germany. All rights reserved. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- The Basics -->
+  <groupId>de.tomask.plugin</groupId>
+  <artifactId>legkoxml-maven-plugin</artifactId>
+  <packaging>maven-plugin</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <dependencies>
+      <dependency>
+          <groupId>org.apache.maven</groupId>
+          <artifactId>maven-plugin-api</artifactId>
+          <version>3.0.4</version>
+          <scope>compile</scope>
+      </dependency>
+<!--
+      <dependency>
+        <groupId>com.mikebevz</groupId>
+        <artifactId>legkoxml</artifactId>
+        <version>0.0.5</version>
+        <scope>compile</scope>
+      </dependency>
+-->
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.10</version>
+        <scope>test</scope>
+      </dependency>
+  </dependencies>
+
+  <!-- Build Settings -->
+  <build>
+    <plugins>
+<!--
+      <plugin>
+        <groupId>org.phpmaven</groupId>
+        <artifactId>maven-php-plugin</artifactId>
+        <version>1.1</version>
+        <extensions>true</extensions>
+      </plugin>
+-->
+    </plugins>
+  </build>
+
+  <!-- More Project Information -->
+  <name>Maven Legko XML Plugin</name>
+  <url>http://legkoxml-maven-plugin.tomask.de</url>
+
+  <organization>
+    <name>tomask - design &amp; development</name>
+    <url>http://www.tomask.de</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>tomask</id>
+      <name>Thomas Kuchs</name>
+      <email>info@tomask.de</email>
+      <roles>
+        <role>product owner</role>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+
+</project>
